@@ -2,6 +2,7 @@
   "name": "household",
   "version": "0.0.1",
   "private": true,
+  "main": "index.js",
   "workspaces": {
     "packages": [
       "../../libs/*"
@@ -18,9 +19,17 @@
     "metro-config": "*",
     "react-native": "*",
     "expo": "*",
+    "expo-font": "*",
     "react-native-svg": "*",
     "react-native-web": "*",
-    "react": "18.3.1"
+    "react": "*",
+    "expo-router": "*",
+    "expo-splash-screen": "*",
+    "react-native-safe-area-context": "*",
+    "react-native-screens": "*",
+    "expo-status-bar": "*",
+    "react-native-reanimated": "*",
+    "expo-linking": "*"
   },
   "devDependencies": {}
 }

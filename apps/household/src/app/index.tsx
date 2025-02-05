@@ -8,6 +8,7 @@ import {
   StatusBar,
 } from 'react-native';
 import { Button } from "kpt-ui";
+import { Link } from "expo-router";
 
 export const App = () => {
   const scrollViewRef = useRef<null | ScrollView>(null);
@@ -38,6 +39,7 @@ export const App = () => {
             </Text>
           </View>
           <View>
+            <Link href="/testPage">Go to test page</Link>
             <Button />
           </View>
         </ScrollView>
@@ -45,6 +47,7 @@ export const App = () => {
     </>
   );
 };
+
 const styles = StyleSheet.create({
   scrollView: {
     backgroundColor: '#ffffff',
