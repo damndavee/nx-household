@@ -2,8 +2,15 @@
   "name": "household",
   "version": "0.0.1",
   "private": true,
+  "workspaces": {
+    "packages": [
+      "../../libs/*"
+    ]
+  },
   "scripts": {
-    "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/household"
+    "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/household",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
   },
   "dependencies": {
     "@testing-library/jest-native": "*",
@@ -12,6 +19,8 @@
     "react-native": "*",
     "expo": "*",
     "react-native-svg": "*",
-    "react-native-web": "*"
-  }
+    "react-native-web": "*",
+    "react": "18.3.1"
+  },
+  "devDependencies": {}
 }
