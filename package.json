@@ -8,6 +8,7 @@
     "@expo/metro-config": "~0.19.4",
     "@expo/metro-runtime": "~4.0.0",
     "expo": "~52.0.11",
+    "expo-dev-client": "^5.0.12",
     "expo-font": "^13.0.3",
     "expo-linking": "^7.0.5",
     "expo-router": "^4.0.17",
